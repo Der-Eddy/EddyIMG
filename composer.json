@@ -1,0 +1,9 @@
+{
+    "name": "dereddy/epvpquotes",
+    "license": "none",
+    "require": {
+        "php": ">=5.3.3",
+        "components/jquery": ">=2.0.3",
+        "semantic/ui": ">=0.19.1"
+    }
+}
