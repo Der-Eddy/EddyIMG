@@ -12,7 +12,7 @@ if ( ($files = @scandir('appr/')) && (count($files) > 3) )
             $msg = $file . "\\";
         }
         $msg = wordwrap ($msg, 70);
-        mail('dereddy@me.com', 'New Registrations', $msg);
+        mail('email@me.com', 'New Registrations', $msg);
 }
 
 echo $msg;
