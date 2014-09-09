@@ -4,11 +4,11 @@
   <title>Epvp Quotes - by Mods</title>
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="../vendor/semantic/ui/build/packaged/css/semantic.css">
+  <link rel="stylesheet" type="text/css" href="../Semantic-UI/build/packaged/css/semantic.css">
 
-  <script src="../vendor/components/jquery/jquery.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js</script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.js"></script>
-  <script src="../vendor/semantic/ui/build/packaged/javascript/semantic.js"></script>
+  <script src="../Semantic-UI/build/packaged/javascript/semantic.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="style.css">
 </head><body>
