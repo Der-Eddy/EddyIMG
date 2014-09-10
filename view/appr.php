@@ -1,5 +1,6 @@
 <?php
 //Sendet aktuelle Benutzer zur Freischaltung an meine Email und zeigt diese an
+$email = "secret";
 
 session_start();
 if (!$_SESSION['id'] == "Der-Eddy") {
@@ -12,7 +13,7 @@ if ( ($files = @scandir('appr/')) && (count($files) > 3) )
             $msg = $file . "\\";
         }
         $msg = wordwrap ($msg, 70);
-        mail('email@me.com', 'New Registrations', $msg);
+        mail($email, 'New Registrations', $msg);
 }
 
 echo $msg;
