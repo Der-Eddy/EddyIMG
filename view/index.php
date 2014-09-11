@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8" />
-  <title>Epvp Quotes - by Mods</title>
+  <title>EddyIMG</title>
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="../Semantic-UI/build/packaged/css/semantic.css">
 
-  <script src="http://code.jquery.com/jquery-2.1.1.min.js</script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"</script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.js"></script>
   <script src="../Semantic-UI/build/packaged/javascript/semantic.min.js"></script>
 
@@ -15,9 +15,9 @@
   <?php 
     require 'session.php';
     require 'folder.php';?>
-  <a href="./index.php" id="header"><div class="ui huge header"><i class="cloud icon"></i>Epvp Mods Quotes</div></a>
-  Quotes from Mods - For Mods
-  <div class="blue ui message"><div class="ui red left corner label"><div class="text">New</div></div>Weil wir Epvp Mods sind bekommen wir fast täglich witzige Nachrichten von Usern zu lesen. Diese Seite sammelt nun eben solche lustige Nachrichten!</div>
+  <a href="./index.php" id="header"><div class="ui huge header"><i class="cloud icon"></i>EddyIMG</div></a>
+  Probably an ImageHoster
+  <div class="blue ui message"><div class="ui red left corner label"><div class="text">New</div></div>Wahrscheinlich lade ich hier Bilder hoch</div>
   <div class="ui horizontal divider"><img src="epvp.png" alt="Epvp Logo"></div>
   
   <?php
