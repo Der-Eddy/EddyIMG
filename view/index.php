@@ -26,16 +26,16 @@
       die;
   }
   if (!isset($_GET['dir'])) {
-      folder("PMs");
-      folder("Complaints");
-      folder("Metin2");
+      folder("Anime");
+      folder("Hentai/Ecchi");
+      folder("GIF");
       folder("S4 League");
   } else {
       folder($_GET['dir'], True);
   }
   ?>
   
-  <div id="footer" style="color: #555555"><a href="../../impressum.php"><i class="info letter icon"></i>Impressum</a> | <a href="http://www.elitepvpers.com"><i class="external url icon"></i>Elitepvpers</a></div>
+  <div id="footer" style="color: #555555"><a href="http://www.eddy-dev.net/impressum.php"><i class="info letter icon"></i>Impressum</a> | <a href="http://www.elitepvpers.com"><i class="external url icon"></i>Elitepvpers</a></div>
   <div class="ui right blue corner label"><div class="text">Beta</div></div>
   
   <?php
@@ -60,19 +60,5 @@
         .modal("show");
     });
     
-    <!-- Piwik -->
-  var _paq = _paq || [];
-  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-  _paq.push(["trackPageView"]);
-  _paq.push(["enableLinkTracking"]);
-
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://eddy-dev.net/piwik/";
-    _paq.push(["setTrackerUrl", u+"piwik.php"]);
-    _paq.push(["setSiteId", "3"]);
-    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-  })();
-<!-- End Piwik Code -->
   </script>
 </body>
