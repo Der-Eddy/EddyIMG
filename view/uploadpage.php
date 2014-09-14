@@ -11,9 +11,9 @@
         Choose your Tag here:<br><br>
         <select name="folder"> 
         <option value="" selected="Tag"></option>
-        <option VALUE="PMs">PMs</option>
-        <option VALUE="Complaints">Complaints</option>
-        <option VALUE="Metin2">Metin2</option>
+        <option VALUE="Anime">Anime</option>
+        <option VALUE="Hentai-Ecchi">Hentai/Ecchi</option>
+        <option VALUE="GIF">GIF</option>
         <option VALUE="S4 League">S4 League</option>
         </select>
         <br><br><br>Choose your picture here:<br><br>
