@@ -1,9 +1,9 @@
-  <div class="ui blue button" id ="upload"><i class="white large upload disk icon"></i>Upload now!</div>
+  <div class="ui blue animated button" id ="upload"><i class="white large upload disk icon"></i>Upload Image!</div>
   <a href="logout.php"><div class="ui red button" id ="logout"><i class="white large lock icon"></i>Logout</div></a>
   <div class="ui modal">
   <i class="close icon"></i>
   <div class="header">
-    <i class="large cloud upload icon"></i> Quote Upload
+    <i class="large cloud upload icon"></i> Image Upload
   </div>
   <div class="content">
     <div class="left">

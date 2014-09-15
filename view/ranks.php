@@ -1,4 +1,5 @@
 <?php
+$admins = array("Der-Eddy");
 $globals = array("DarkOPM");
-$mods = array("Autrux", "Der-Eddy", "ComputerBaer", "Shawak", "sago");
+$mods = array("Autrux", "Eddy", "ComputerBaer", "Shawak", "sago");
 ?>

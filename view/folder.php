@@ -37,7 +37,9 @@ if ($login == true) {
             $color = "orange";
         } elseif (in_array($uploader[1], $mods)) { 
             $color = "green";
-        } else { 
+        } elseif (in_array($uploader[1], $admins)) {
+            $color = "red";
+	} else { 
             $color = "blue";
         }
         

@@ -24,6 +24,9 @@
   if ($_GET['site'] == "register") {
       require 'registerpage.php';
       die;
+  } elseif ($_GET['site'] == "about") {
+      require 'about.php';
+      die;
   }
   if (!isset($_GET['dir'])) {
       folder("Anime");
@@ -35,7 +38,7 @@
   }
   ?>
   
-  <div id="footer" style="color: #555555"><a href="http://www.eddy-dev.net/impressum.php"><i class="info letter icon"></i>Impressum</a> | <a href="http://www.elitepvpers.com"><i class="external url icon"></i>Elitepvpers</a></div>
+  <div id="footer" style="color: #555555"><a href="./index.php?site=about"><i class="info letter icon"></i>About</a> | <a href="http://www.elitepvpers.com"><i class="external url icon"></i>Elitepvpers</a></div>
   <div class="ui right blue corner label"><div class="text">Beta</div></div>
   
   <?php
