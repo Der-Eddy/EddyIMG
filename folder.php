@@ -18,10 +18,11 @@ if ($login == true) {
         glob($folder.'/*.png'),
         glob($folder.'/*.gif')
     );
-    foreach ($open as $file)
-    {
-        $files[filectime($file)]=$file;
-    }
+    //foreach ($open as $file)
+    //{
+    //    $files[filectime($file)]=$file;
+    //}
+    $files = $open;
     ksort($files);
 
     if (count($files) > 0){
@@ -32,6 +33,9 @@ if ($login == true) {
             echo "<div class='ui red left corner label'><div class='text'>New</div></div>";
         }
         $uploader = explode(".", basename($file, ".jpg"));
+        if ($uploader[1] == "png" || $uploader[1] == "gif" || $uploader[1] == "jpg"){
+            $uploader[1] = "System";
+        }
         
         if (in_array($uploader[1], $globals)) { 
             $color = "orange";

@@ -9,7 +9,7 @@ if($filetype[2] != 0)
       move_uploaded_file($_FILES['file']['tmp_name'], $_POST['folder'] . "/" . $name[0] . "." . $_SESSION['id'] . "." . $name[1]);
       echo "Sucessfully uploaded!<br>"
       . "<a href='index.php'>Link</a>"
-      . "<meta http-equiv='refresh' content='5; URL=./index.php'>";
+      . "<meta http-equiv='refresh' content='1; URL=./index.php'>";
 
     }
 

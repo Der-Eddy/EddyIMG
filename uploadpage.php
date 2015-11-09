@@ -11,10 +11,10 @@
         Choose your Tag here:<br><br>
         <select name="folder"> 
         <option value="" selected="Tag"></option>
-        <option VALUE="Anime">Anime</option>
-        <option VALUE="Hentai-Ecchi">Hentai/Ecchi</option>
-        <option VALUE="GIF">GIF</option>
-        <option VALUE="S4 League">S4 League</option>
+        <option VALUE="long">long</option>
+        <option VALUE="Haruhi">Haruhi</option>
+        <option VALUE="Free">Free</option>
+        <option VALUE="archive">archive</option>
         </select>
         <br><br><br>Choose your picture here:<br><br>
 <input name="file" type="file"/><br /><br />
